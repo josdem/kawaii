@@ -534,11 +534,39 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.m-20 {
+  margin: 5rem;
+}
+
+.m-64 {
+  margin: 16rem;
+}
+
+.flex {
+  display: flex;
+}
+
 .h-52 {
   height: 13rem;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.content-center {
+  align-content: center;
+}
+
+.justify-items-center {
+  justify-items: center;
 }
 
 .bg-rose-300 {
   --tw-bg-opacity: 1;
   background-color: rgb(253 164 175 / var(--tw-bg-opacity));
+}
+
+.text-center {
+  text-align: center;
 }
